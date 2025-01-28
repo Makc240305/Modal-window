@@ -23,7 +23,7 @@ To run this project locally, follow these steps:
 1.  Clone the repository:
 
     ```bash
-    git clone [https://github.com/Makc240305/Modal-window.git](https://github.com/Makc240305/Modal-window.git)
+    git clone https://github.com/Makc240305/Modal-window.git
     ```
 
 2.  Navigate to the project directory:
