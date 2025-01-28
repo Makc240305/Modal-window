@@ -6,23 +6,22 @@
     sans-serif;
 }
 
+*:focus {
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus-visible {
+  outline: 2px solid #2a9d8f;
+  outline-offset: 4px;
+}
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #e6e8ec;
 }
-
-button {
-  outline: none; 
-  -webkit-tap-highlight-color: transparent;
-}
-
-button:focus-visible {
-  outline: 2px solid #2a9d8f; 
-  outline-offset: 4px;       
-}
-
 
 .App {
   display: flex;
@@ -101,8 +100,7 @@ button:focus-visible {
   }
 }
 
-
-.closure{
+.closure {
   height: 100svh;
   width: 100svw;
 }
